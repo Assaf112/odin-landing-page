@@ -121,6 +121,32 @@ ul {
     gap: 60px;
     font-size: 17px;
     margin-top: 8px;
-    margin-bottom: 128px;
+    padding-bottom: 128px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding-top: 128px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 510px;
+    padding-bottom: 128px;
+}
