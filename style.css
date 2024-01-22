@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+    /* Head */
+
 .head {
     background-color: #1F2937;
 }
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    padding-top: 16px;
-    padding-left: 128px;
+    margin-top: 16px;
+    margin-left: 128px;
     margin-bottom: 64px;
 }
 
@@ -24,8 +27,8 @@ ul {
     flex-direction: row;
     gap: 16px;
     margin-left: auto;
-    padding-right: 128px;
-    padding-top: 16px;
+    margin-right: 128px;
+    margin-top: 16px;
 }
 .nav-links {
     font-size: 18px;
@@ -78,3 +81,46 @@ ul {
     margin-left: 128px;
     margin-bottom: 128px;
 }
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 32px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info-texts {
+    font-weight: 500;
+    color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-bottom: 128px;
+}
+
