@@ -189,3 +189,13 @@ ul {
     cursor: pointer;
     font-size: 16px;
 }
+
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
