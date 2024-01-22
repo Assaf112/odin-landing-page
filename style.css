@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
     /* Head */
@@ -62,7 +63,6 @@ ul {
     float: right;
     padding-right: 128px;
     top:-200px;
-    cursor: pointer;
 }
 
 .signup {
@@ -80,6 +80,7 @@ ul {
     margin-top: 8px;
     margin-left: 128px;
     margin-bottom: 128px;
+    cursor: pointer;
 }
 
 .info-header {
@@ -118,7 +119,7 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 60px;
+    gap: 45px;
     font-size: 17px;
     margin-top: 8px;
     padding-bottom: 128px;
@@ -149,4 +150,42 @@ ul {
     justify-content: center;
     padding-left: 510px;
     padding-bottom: 128px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+#signup-header {
+    font-size: 32px;
+    color: white;
+    margin-top: 32px;
+}
+
+.blue-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3382F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#signup-text {
+    font-size: 20px;
+    color: white;
+}
+
+.signup-button {
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: #3382F6;
+    padding: 8px 32px 8px 32px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
